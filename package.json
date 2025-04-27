@@ -1,0 +1,28 @@
+{
+  "name": "react-pack-to-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx rollup -c",
+    "dev": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.2",
+    "@types/react": "^19.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rollup": "^4.40.0",
+    "tslib": "^2.8.1"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
